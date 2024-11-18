@@ -3,20 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | GardaBoy</title>
+    <title>Website Sederhana</title>
     <style>
         body {
-            font-family: 'Times New Roman', Times, serif, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            text-align: left;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
         }
-</style>    
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+    </style>  
 </head>
 <body>
-    <h1>Selamat datang di Website【GardaBoy】! 🌏✨</h1>
-        <p><img src="C:\Users\Hp\OneDrive\Desktop\Website HTML\gambar.jpg" width="100">
-            <a href="about.html">Tentang Kami</a>
-            <a href="contact.html">Kontak</a>
+    <h1>Selamat Datang di Website Saya</h1>
+    <img src="gambar.jpg" alt="Deskripsi Gambar" width="300">
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <form action="/submit" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Kirim</button>
+    </form>        
+    <p>Ini adalah website sederhana yang dibuat dengan HTML.</p>
+    <a href="https://example.com" target="_blank">Kunjungi Example</a>
 </body>
 </html>
